@@ -3,7 +3,7 @@
 $host = "localhost";
 $usuario="root";
 $senha = "";
-$bd = "projeto_2";
+$bd = "projeto";
 
 $mysqli = new mysqli($host,$usuario,$senha,$bd);
 if($mysqli->connect_errno)

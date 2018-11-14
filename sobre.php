@@ -70,7 +70,7 @@
                 <li><a href="sobre.php">Sobre nós</a> </li>
                 
                 <li><a href="programacoes.php">Programações</a> </li>
-                <li><a href="materiais.php">Materiais de estudo</a></li>
+             
                 <li><a href="contato.php">Fale conosco</a></li>
             </ul>
             
@@ -82,9 +82,9 @@
             Sobre nós
         </div><br><br>
         
-        <a id="textoEscolha" href=""><div id="escolha">Nossa história</div></a><br><br>
+        <a id="textoEscolha" href="nossaHistoria.php"><div id="escolha">Nossa história</div></a><br><br>
         <a id="textoEscolha" href="histBatistas.php"><div id="escolha">História dos Batistas</div></a><br><br>
-        <a id="textoEscolha"href=""><div id="escolha">Pacto e Princípios Batistas</div></a><br><br>
+        <a id="textoEscolha"href="principios.php"><div id="escolha">Pacto e Princípios Batistas</div></a><br><br>
         <div id="final">
             <p id="rodape">Primeira Igreja Batista em Planaltina Goiás<br><br>
                 

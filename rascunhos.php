@@ -92,3 +92,30 @@ Missões Nacionais e Missões Estrangeiras (hoje Missões Mundiais) outras junta
 para Educação e Seminário, e para a Administração do Seminário. Ao todo, 7 Juntas.<br><br>
 
 As áreas de Missões, Educação Religiosa e Publicações, Educação Teológica e Educação, foram as que receberam maior atenção dos convencionais.<br><br>
+        
+        
+        
+        
+if(isset($_POST['entrar'])){
+
+$email=$_POST['email'];
+$senha=$_POST['senha'];
+
+$query = mysqli_query($mysqli,"SELECT * FROM dados WHERE email='$email'AND senha='$senha'");
+$row= mysqli_num_rows($query);
+
+if($row>0){
+    session_start();
+    $_SESSION['email']=$_POST['email'];
+    $_SESSION['senha']= $_POST['senha'];
+    
+    $consulta = mysqli_query($mysqli,"SELECT * FROM dados WHERE email = '$email' AND senha = '$senha'");
+    $login = mysqli_num_rows($consulta);
+    if($login > 0){
+        header('Location: index.php');
+    }
+ else {
+        header('login1.php');
+    }
+          }
+}

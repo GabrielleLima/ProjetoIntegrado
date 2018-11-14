@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -57,7 +59,6 @@
                 <li><a href="sobre.php">Sobre nós</a> </li>
                 
                 <li><a href="programacoes.php">Programações</a> </li>
-                <li><a href="materiais.php">Materiais de estudo</a></li>
                 <li><a href="contato.php">Fale conosco</a></li>
             </ul>
             
@@ -80,12 +81,13 @@
         
         
         <div id="final">
-            <p id="rodape">Primeira Igreja Batista em Planaltina Goiás<br><br>
+            <p id="rodape">Primeira Igreja Batista em Planaltina Goiás<br>
                 
                 Telefone: (61) 3637-1188<br>
-            Quadra 01 Mr 01 Lotes 01 e 02 Setor Norte - Planaltina Goiás
+                Quadra 01 Mr 01 Lotes 01 e 02 Setor Norte - Planaltina Goiás<br>
+            <a href="login1.php">Administrador</a>
             </p>
-           
+            
         </div>
     </body>
 </html>

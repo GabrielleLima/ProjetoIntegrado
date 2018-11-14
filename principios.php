@@ -81,30 +81,27 @@
             História dos Batistas
         </div>
         <div id="hist">
-            <h2>Quem somos como Batistas</h2>
+            <h2>Pacto das Igrejas Batistas</h2>
+<p>Tendo sido levados pelo Espírito Santo a aceitar a Jesus Cristo como único e suficiente Salvador, e batizados, sob profissão de fé, 
+em nome do Pai, do Filho e do Espírito Santo, decidimo-nos, unânimes, como um corpo em Cristo, firmar, solene e alegremente, na presença de Deus e desta congregação,
+o seguinte Pacto:<br><br>
 
-            <p>Somos um povo que vem de longe, com muitos nomes, de muitas perseguições, de muitas lutas, mas construindo uma bela história de fé, de doutrina e de princípios. 
-                Você os conhecerá nos conteúdos de documentos que disponibilizamos neste Portal.<br><br>
+Comprometemo-nos a, auxiliados pelo Espírito Santo, andar sempre unidos no amor cristão; trabalhar para que esta Igreja cresça no conhecimento da Palavra, na santidade,
+no conforto mútuo e na espiritualidade; manter os seus cultos, suas doutrinas, suas ordenanças e sua disciplina; contribuir liberalmente para o sustento do ministério, 
+para as despesas da Igreja, para o auxílio dos pobres e para a propaganda do Evangelho em todas as nações.<br><br>
 
-Somos o povo da Bíblia, a Palavra Infalível e Eterna de Deus. Cremos em Deus Pai, Santo, Justo, Criador, e Sustentador de todas as coisas. Cremos no Deus Filho, Jesus Cristo, 
-Salvador e Senhor de nossas vidas e almas, e no Deus Espirito Santo, o Consolador que nos guia em tudo quanto Jesus ensinou.<br><br>
+Comprometemo-nos, também, a manter uma devoção particular; a evitar e condenar todos os vícios; a educar religiosamente nossos filhos; a procurar a salvação de todo o mundo, 
+a começar dos nossos parentes, amigos e conhecidos; a ser corretos em nossas transações, fiéis em nossos compromissos, exemplares em nossa conduta e ser diligentes nos trabalhos seculares; 
+evitar a detração, a difamação e a ira, sempre e em tudo visando à expansão do Reino do nosso Salvador.<br><br>
+Além disso, comprometemo-nos a ter cuidado uns dos outros; a lembrarmo-nos uns dos outros nas orações; ajudar mutuamente nas enfermidades e necessidades; cultivar relações francas e a 
+delicadeza no trato; estar prontos a perdoar as ofensas, buscando, quando possível, a paz com todos os homens.<br><br>
 
-Com o nome de Batista existimos desde 1612, quando Thomas Helwys, de volta da Holanda, onde se refugiara da perseguição do Rei James I da Inglaterra, 
-organizou com os que voltaram com ele uma Igreja em Spitalfields, arredores de Londres.<br><br>
+Finalmente, nos comprometemos a, quando sairmos desta localidade para outra, nos unirmos a uma outra Igreja da mesma fé e ordem, em que possamos observar os princípios da Palavra de Deus e 
+o espírito deste Pacto.<br><br>
 
-Thomas Helwys, que era advogado e estudioso da Bíblia, ao escrever um livro intitulado " Uma Breve Declaração Sobre o Mistério da Iniquidade", foi preso e morreu na prisão, em 1615.<br><br>
+O Senhor nos abençoe e nos proteja para que sejamos fiéis e sinceros até a morte.<br><br>
 
-No referido livro, ele escreveu aquilo que é um dos mais caros princípios batistas, o princípio da liberdade religiosa e de consciência:"… a religião do homem está entre Deus e ele: 
-o rei não tem que responder por ela e nem pode o rei ser juiz entre Deus e o homem. Que haja, pois, heréticos, turcos ou judeus, ou outros mais,
-não cabe ao poder terreno puni-los de maneira nenhuma".<br><br>
-
-Nossas Igrejas adotam a forma de governo Congregacional Democrático. São Igrejas autônomas e locais. Relacionam-se umas com as outras pela mesma fé e ordem, de forma cooperativa e por laços fraternais.<br><br>
-
-Creem na conversão pessoal de cada crente a Jesus Cristo, no exercício de sua responsabilidade individual e que é aceito pela Igreja por batismo por imersão e mediante
-confissão da sua fé em Jesus Cristo como salvador pessoal. Portanto, não aceitam e nem praticam o batismo infantil. Realizam seus objetivos comuns pela cooperação voluntária, 
-na forma de associação de Igrejas ou de Convenções, como é o caso da Convenção Batista Brasileira.<br><br>
-Declaração doutrinária da convenção: <a href="pdfs/Declaraçao doutrinaria.pdf" target="_blank"> Declaração doutrinária</a> <br><br><br>
-           
+Leia sobre os Princípios Batistas : <a href="pdfs/principios batistas.pdf" target="_blank">Princípios Batistas</a>    <br><br>   
 
 
 

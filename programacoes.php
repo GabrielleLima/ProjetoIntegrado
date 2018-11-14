@@ -53,7 +53,6 @@
                 <li><a href="index.php">Inicio</a> </li>
                 <li><a href="sobre.php">Sobre nós</a> </li>
                 <li><a href="programacoes.php">Programações</a> </li>
-                <li><a href="materiais.php">Materiais de estudo</a></li>
                 <li><a href="contato.php">Fale conosco</a></li>
             </ul>
             

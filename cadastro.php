@@ -8,9 +8,9 @@
     <body>  
         Digite seus dados abaixo
         <form action="cadastro.php" method="POST">
-            Nome: <input type="text" name="nome"><br><br>
-            Email: <input type="email" name="email"><br><br>
-            Senha: <input type="password" name="senha"><br><br>
+            Nome: <input type="text" name="nome" required autofocus><br><br>
+            Email: <input type="email" name="email" required><br><br>
+            Senha: <input type="password" name="senha" required><br><br>
             <input type="submit" name="cadastrar" value="Cadastrar">
                   
         </form>
@@ -29,19 +29,15 @@ if(isset($_POST['cadastrar'])){
     $inserir="INSERT INTO cadastro(nome,email,senha) VALUES ('$nome','$email','$senha')";
     $enviar= mysqli_query($mysqli, $inserir);
         if($enviar){
-            $_SESSION['mensagem']="Cadastrado com sucesso";
-            header("location:index.php");
-            exit;
+            
+            header("location:login1.php");
+            
         }else{
-            $_SESSION['mensagem']="ERRO AO CADASTRAR";
+            
             header("location:cadastro.php");
-            exit;
+            
         }
-    }else{
-        $_SESSION['mensagem']="Algum campo em branco";
-        header("location:cadastro.php");
-        exit;
-    }
+        }
 }
     
 ?>
