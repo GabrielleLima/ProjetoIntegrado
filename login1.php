@@ -34,6 +34,50 @@ $row = mysqli_num_rows($sql);
                 
             }
             </script>
+            <style>
+                nav#posicao{
+                    
+                    width: 280px;
+                    height: 300px;
+                    padding: 10px;
+                    position: relative;
+                    top: 50px;
+                    left: 550px;
+                    text-align: center;
+    
+                }
+                p{
+                    
+                   font-size: 25pt;
+                   text-shadow: 3px 3px 10px gray;  
+                }
+                .campo{
+                  
+                   border-bottom: 3px solid rgba(0,0,0,0.8);
+                   padding: 3px ;
+                   margin: 3px;
+                   border-width: 50%;
+                }
+                .campo input{
+                    color: black;
+                    background: none;
+                    outline: none;
+                    border: none;
+                    font-size: 15pt;
+                }
+                .button{
+                    width: 100%;
+                    background: none;
+                    border: 2px solid rgba(0,0,0,0.8) ;
+                    font-size: 15pt;
+                    cursor: pointer;
+                }
+                a#link{
+                    text-align: right;
+                    text-decoration: none;
+                    color: black;
+                }
+            </style>
         <title>Login</title>    
     <body>  
         
@@ -44,15 +88,22 @@ $row = mysqli_num_rows($sql);
         <hr widht=100 align="center" color="black">
        
         </div>
-        
-        <h1>Fazer login</h1>
+        <nav id="posicao">
+            <p>Fazer login</p>
+            
         <form action="login1.php" method="POST">
-            Email:<input type="email" name="email" > <br><br>
-            Senha:<input type="password" name="senha"><br><br>
-            <input type="submit" name="entrar" value="Entrar">
+            <div class="campo">
+                <input type="email" placeholder="Email" name="email" required autofocus >
+            </div>
+             <div class="campo">
+                 <input type="password" placeholder="Senha" name="senha" required>
+             </div><br>
+            <input class="button" type="submit" name="entrar" value="Entrar">
                    
         </form>
-        <a href="cadastro.php">  Fazer cadastro</a>
+            <br>
+            <a href="cadastro.php" id="link">  Fazer cadastro</a>
+        </nav>
     </body>
 </html>
 

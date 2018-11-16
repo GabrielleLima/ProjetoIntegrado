@@ -45,10 +45,20 @@ session_start();
             p#index{
                 text-shadow: 3px 3px 10px gray;
             }
-            #botao{
+            .button{
                 position: absolute;
-                top: 30px;
+                top: 40px;
                 right: 10px;
+                width: 90px;
+                 background: none;
+                    border: 2px solid rgba(0,0,0,0.8) ;
+                    font-size: 10pt;
+                    cursor: pointer;
+            }
+            div#login{
+                position: absolute;
+                top: 20px;
+                right: 5px;
             }
         </style>
         <title></title>
@@ -58,18 +68,8 @@ session_start();
             <img src="fotos/simbolo.png" align="left" width="8%" height="8%"> <br>
         <h1 style text align="left">Primeira Igreja Batista </h1>
         
-        <nav id="menu">
-            <ul>
-                <li><a href="index.php">Inicio</a> </li>
-                <li><a href="sobre.php">Sobre nós</a> </li>
-                
-                <li><a href="programacoes.php">Programações</a> </li>
-                <li><a href="contato.php">Fale conosco</a></li>
-               
-            </ul>
-            
-        </nav> 
-        <a id="botao" href="inicio.php"><input type="button"name="login" value="Sair"></a>
+        <div id="login">Faça o login para saber mais sobre nossa Igreja!</div>
+        <a  href="login1.php"><input class="button" type="button"name="login" value=" Login"> </a>
         <hr widht=100 align="center" color="black">
        
         </div>
