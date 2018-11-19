@@ -1,4 +1,7 @@
-
+<!DOCTYPE html>
+<?php
+session_start();
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -56,6 +59,16 @@
                 color: white;
                 text-align: center;
             }
+            #botao{
+                position: absolute;
+                top: 30px;
+                right: 10px;
+                width: 90px;
+                background: none;
+                border: 2px solid rgba(0,0,0,0.8) ;
+                font-size: 10pt;
+                cursor: pointer;
+            }
         </style>
         <title></title>
     </head>
@@ -75,7 +88,8 @@
             </ul>
             
         </nav> 
-        <hr widht=100 align="center" color="black">
+        <a  href="logout.php"><input id="botao" type="button"name="login" value="Sair"></a>
+        <hr width="100%" align="center" color="black">
        
         </div>
         <div id="titulo">

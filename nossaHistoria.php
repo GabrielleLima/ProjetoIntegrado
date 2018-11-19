@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<?php
+session_start();
+?>
 <html>
     <head>
         <title>Fale conosco</title>
@@ -24,7 +26,7 @@
                
             }
             p{
-                font-size: 20px;
+                font-size: 15pt;
                 color: black;
                 text-align: justify;
                 margin: 3px;
@@ -58,6 +60,20 @@
                 color: white;
                 text-align: center;
             }
+            #botao{
+                position: absolute;
+                top: 30px;
+                right: 10px;
+                width: 90px;
+                background: none;
+                border: 2px solid rgba(0,0,0,0.8) ;
+                font-size: 10pt;
+                cursor: pointer;
+            }
+            p#fonte{
+                font-size: 10pt;
+                font-style: italic;
+            }
             </style>
     </head>
     <body>
@@ -74,14 +90,16 @@
             </ul>
             
         </nav> 
-        <hr widht=100 align="center" color="black">
+        <a  href="logout.php"><input id="botao" type="button"name="login" value="Sair"></a>
+        <hr width="100%" align="center" color="black">
        
         </div>
         <div id="titulo">
             História dos Batistas
         </div>
         <div id="hist">
-            <h2>Nossa História</h2>
+            <h2>Nossa História</h2><br>
+            <img src="fotos/igreja.png" width="100%" height="30%"><br>
             <p> A Primeira Igreja Batista começou em 12/06/1982 na Quadra 01 MR 12 lote 20 Setor Norte Planaltina-GO 
             e depois foi construído o templo em 09/05/1991 na Quadra 01 MR 01 Lotes 01 e 02 Setor Norte Planaltina-GO 
             o qual está até hoje.<br>
@@ -104,7 +122,7 @@
             
 Veja nosso estatuto: <a href="pdfs/estatuto.pdf" target="_blank">Estatuto PIB</a><br><br>
 
-Fonte: http://www.convencaobatista.com.br/siteNovo/index.php </p>
+            <p id="fonte"> Fonte: http://www.convencaobatista.com.br/siteNovo/index.php </p> </p>
         </div>
        <div id="final">
             <p id="rodape">Primeira Igreja Batista em Planaltina Goiás<br><br>

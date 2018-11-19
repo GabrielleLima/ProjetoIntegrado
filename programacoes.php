@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<?php
+session_start();
+?>
 <html>
     <head>
         <title>Avisos</title>
@@ -41,6 +43,16 @@
             div#aviso li{
                 text-align: justify;
             }
+            #botao{
+                position: absolute;
+                top: 30px;
+                right: 10px;
+                width: 90px;
+                background: none;
+                border: 2px solid rgba(0,0,0,0.8) ;
+                font-size: 10pt;
+                cursor: pointer;
+            }
             </style>
     </head>
     <body>
@@ -57,6 +69,7 @@
             </ul>
             
         </nav> 
+        <a  href="logout.php"><input id="botao" type="button"name="login" value="Sair"></a>
         <hr widht=100 align="center" color="black">
        
         </div>

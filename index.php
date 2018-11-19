@@ -1,5 +1,6 @@
 <?php
 session_start();
+include ('conexao.php');
 ?>
 <html>
     <head>
@@ -8,9 +9,9 @@ session_start();
         <style type="text/css">
             div#tamanhoTema{
                 position: relative;
-                height: 600px;
-                 margin-left: -8px;
-                 margin-right: -8px;
+                height: 500px;
+                margin-left: -8px;
+                margin-right: -5px;
                 border-radius: 10px;   
                 
             }
@@ -20,10 +21,8 @@ session_start();
                 bottom: -10px;
                 left: 0px;
                 height: 100px;
+                padding: 1px;
                
-             padding: 1px;
-              margin-left: -8px;
-  margin-right: -8px;
             }
             p#rodape{
                 color: white;
@@ -34,8 +33,8 @@ session_start();
                 
             }
             div#cabecalho{
-                 margin-left: -8px;
-  margin-right: -8px;
+                margin-left: -8px;
+                margin-right: -8px;
             }
             h3#tema{
                 font-family: cursive;
@@ -49,7 +48,49 @@ session_start();
                 position: absolute;
                 top: 30px;
                 right: 10px;
+                width: 90px;
+                background: none;
+                border: 2px solid rgba(0,0,0,0.8) ;
+                font-size: 10pt;
+                cursor: pointer;
             }
+            div#link1{
+                position: relative;
+                width: 250px;
+                height: 200px;
+                left: 400px;
+                top: 30px;
+                text-align: center;
+            }
+            div#link1 button{
+                background: rgba(0,0,0,0.9);
+                color: white;
+                border: 2px solid rgba(0,0,0,0.9) ;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            div#link2{
+                position: relative;
+                width: 250px;
+                height: 200px;
+                left: 780px;
+                top: -170px;
+                text-align: center;
+            }
+             div#link2 button{
+                background: rgba(0,0,0,0.9);
+                color: white;
+                border: 2px solid rgba(0,0,0,0.9) ;
+                cursor: pointer;
+                border-radius: 10px;
+             }
+                div#letra{
+                    text-align: center;
+                    font-size: 20pt;
+                    font-family: initial;
+                    width: 100%;
+                    
+                }
         </style>
         <title></title>
     </head>
@@ -69,8 +110,8 @@ session_start();
             </ul>
             
         </nav> 
-        <a id="botao" href="inicio.php"><input type="button"name="login" value="Sair"></a>
-        <hr widht=100 align="center" color="black">
+        <a  href="logout.php"><input id="botao" type="button"name="login" value="Sair"></a>
+        <hr width="100%" align="center" color="black">
        
         </div>
         <div id="tamanhoTema">
@@ -79,12 +120,23 @@ session_start();
                 <p id="index">Tema</p>
                 Uma igreja comprometida com a palavra de Deus<br>
                 <p id="index">Divisa</p>
-                "E sede cumpridores da palavra e não somente ouvintes, enganando-vos com falsos discursos."<br> Tiago 1:22.
+                "E sede cumpridores da palavra e não somente ouvintes, enganando-vos com falsos discursos."<br> Tiago 1:22
                 
         </h3>
            
         </div>
-        <img src="fotos/logoConvencao.jpg" width="10%" height="15%">
+        <hr width="80%" align="center" color="black">
+        <div id="letra"> <n>Sobre</n> </div>
+        <div id="link1">
+            <img src="fotos/logoConvencao.jpg" width="70%" height="65%"><br><br>
+            <a href="histBatistas.php"> <button>Leia sobre a convenção</button></a>
+        </div>
+        
+        <div id="link2">
+            <img src="fotos/igreja.png" width="100%" height="60%"><br><br>
+            <a href="nossaHistoria.php"><button>Leia sobre nossa história</button></a>
+        </div>
+        
         
         
         <div id="final">

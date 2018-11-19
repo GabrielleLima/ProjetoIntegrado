@@ -30,7 +30,9 @@ session_start();
                 text-align: center;
             }
             div#tamanhoTema img {
-                width: 50%;
+                position: relative;
+                top: 10px;
+                left: 300px;
                 
             }
             div#cabecalho{
@@ -70,7 +72,7 @@ session_start();
         
         <div id="login">Faça o login para saber mais sobre nossa Igreja!</div>
         <a  href="login1.php"><input class="button" type="button"name="login" value=" Login"> </a>
-        <hr widht=100 align="center" color="black">
+        <hr width="100%" align="center" color="black">
        
         </div>
         <div id="tamanhoTema">
@@ -79,11 +81,12 @@ session_start();
                 <p id="index">Tema</p>
                 Uma igreja comprometida com a palavra de Deus<br>
                 <p id="index">Divisa</p>
-                "E sede cumpridores da palavra e não somente ouvintes, enganando-vos com falsos discursos."<br> Tiago 1:22.
+                "E sede cumpridores da palavra e não somente ouvintes, enganando-vos com falsos discursos."<br> Tiago 1:22
                 
         </h3>
-           
+           <img src="fotos/igreja.png" width="60%" height="50%">
         </div>
+        <br>
         <img src="fotos/logoConvencao.jpg" width="10%" height="15%">
         
         

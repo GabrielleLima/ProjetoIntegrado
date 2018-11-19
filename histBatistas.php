@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<?php
+session_start();
+?>
 <html>
     <head>
         <title>Fale conosco</title>
@@ -24,7 +26,7 @@
                
             }
             p{
-                font-size: 20px;
+                font-size: 15pt;
                 color: black;
                 text-align: justify;
                 margin: 3px;
@@ -58,6 +60,20 @@
                 color: white;
                 text-align: center;
             }
+            #botao{
+                position: absolute;
+                top: 30px;
+                right: 10px;
+                width: 90px;
+                background: none;
+                border: 2px solid rgba(0,0,0,0.8) ;
+                font-size: 10pt;
+                cursor: pointer;
+            }
+            p#fonte{
+                font-size: 10pt;
+                font-style: italic;
+            }
             </style>
     </head>
     <body>
@@ -74,7 +90,8 @@
             </ul>
             
         </nav> 
-        <hr widht=100 align="center" color="black">
+        <a  href="logout.php"><input id="botao" type="button"name="login" value="Sair"></a>
+        <hr width="100%" align="center" color="black">
        
         </div>
         <div id="titulo">
@@ -108,7 +125,7 @@ Declaração doutrinária da convenção: <a href="pdfs/Declaraçao doutrinaria.
 
 
 
-Fonte: http://www.convencaobatista.com.br/siteNovo/index.php </p>
+            <p id="fonte">Fonte: http://www.convencaobatista.com.br/siteNovo/index.php</p> </p>
         </div>
        <div id="final">
             <p id="rodape">Primeira Igreja Batista em Planaltina Goiás<br><br>

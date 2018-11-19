@@ -63,7 +63,7 @@ if(isset($_POST['cadastrar'])){
                     font-size: 15pt;
                 }
                 .button{
-                    width: 100%;
+                    width: 40%;
                     background: none;
                     border: 2px solid rgba(0,0,0,0.8) ;
                     font-size: 15pt;
@@ -77,7 +77,7 @@ if(isset($_POST['cadastrar'])){
             <img src="fotos/simbolo.png" align="left" width="8%" height="8%"> <br>
         <h1 style text align="left">Primeira Igreja Batista </h1>
        
-        <hr widht=100 align="center" color="black">
+        <hr width="100%" align="center" color="black">
        
         </div>
         <nav id="posicao">
@@ -94,7 +94,8 @@ if(isset($_POST['cadastrar'])){
                  <input type="password" placeholder="Senha" name="senha" required>
              </div><br>
              <input class="button" type="submit" name="cadastrar" value="Cadastrar">
-                   
+             <input class="button" type="reset" name="limpar" value="Limpar"><br><br>
+             <a href="login1.php"><input class="button" type="button" name="cancelar" value="Cancelar"></a>      
         </form>
                     
         </nav>

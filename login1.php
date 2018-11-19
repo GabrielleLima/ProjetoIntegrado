@@ -12,7 +12,7 @@ $row = mysqli_num_rows($sql);
         $_SESSION['email']=$_POST['email'];
         $_SESSION['senha']=$_POST['senha'];
         
-       /* echo"<script>loginSucesso()</script>";*/
+       
         
        header('location:index.php');
         }else{
