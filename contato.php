@@ -60,7 +60,7 @@ session_start();
         
         <nav id="menu">
             <ul>
-                <li><a href="index.php">Inicio</a> </li>
+                <li><a href="index.php">Início</a> </li>
                 <li><a href="sobre.php">Sobre nós</a> </li>                
                 <li><a href="programacoes.php">Programações</a> </li>
                 <li><a href="contato.php">Fale conosco</a></li>

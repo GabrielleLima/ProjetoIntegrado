@@ -86,13 +86,13 @@ include ('conexao.php');
              }
                 div#letra{
                     text-align: center;
-                    font-size: 20pt;
+                    font-size: 23pt;
                     font-family: initial;
                     width: 100%;
                     
                 }
         </style>
-        <title></title>
+        <title>Início</title>
     </head>
     <body>
         <div id="cabecalho">
@@ -101,7 +101,7 @@ include ('conexao.php');
         
         <nav id="menu">
             <ul>
-                <li><a href="index.php">Inicio</a> </li>
+                <li><a href="index.php">Início</a> </li>
                 <li><a href="sobre.php">Sobre nós</a> </li>
                 
                 <li><a href="programacoes.php">Programações</a> </li>
@@ -128,13 +128,13 @@ include ('conexao.php');
         <hr width="80%" align="center" color="black">
         <div id="letra"> <n>Sobre</n> </div>
         <div id="link1">
-            <img src="fotos/logoConvencao.jpg" width="70%" height="65%"><br><br>
-            <a href="histBatistas.php"> <button>Leia sobre a convenção</button></a>
+            <img src="fotos/convencaoPlanalto.png" width="70%" height="65%"><br><br>
+            <a href="nossaHistoria.php"> <button>Leia sobre a convenção</button></a>
         </div>
         
         <div id="link2">
-            <img src="fotos/igreja.png" width="100%" height="60%"><br><br>
-            <a href="nossaHistoria.php"><button>Leia sobre nossa história</button></a>
+            <img src="fotos/programacao.png" width="60%" height="65%"><br><br>
+            <a href="programacoes.php"><button>Veja nossas programações</button></a>
         </div>
         
         

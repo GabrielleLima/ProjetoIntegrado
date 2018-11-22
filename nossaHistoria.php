@@ -4,7 +4,7 @@ session_start();
 ?>
 <html>
     <head>
-        <title>Fale conosco</title>
+        <title>Nossa história</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="formatacao.css"> 
@@ -26,7 +26,7 @@ session_start();
                
             }
             p{
-                font-size: 15pt;
+                font-size: 12pt;
                 color: black;
                 text-align: justify;
                 margin: 3px;
@@ -74,6 +74,18 @@ session_start();
                 font-size: 10pt;
                 font-style: italic;
             }
+            button{
+                background: none;                
+                border: 2px solid rgba(0,0,0,0.9) ;
+                cursor: pointer;
+                border-radius: 5px;
+             }
+             h3{
+                 color: black;
+                font-size: 20pt;
+                text-shadow: 3px 3px 10px gray;
+                text-align: center;
+             }
             </style>
     </head>
     <body>
@@ -83,47 +95,66 @@ session_start();
         
         <nav id="menu">
             <ul>
-                <li><a href="index.php">Inicio</a> </li>
+                <li><a href="index.php">Início</a> </li>
                 <li><a href="sobre.php">Sobre nós</a> </li>                
                 <li><a href="programacoes.php">Programações</a> </li>
                 <li><a href="contato.php">Fale conosco</a></li>
             </ul>
             
-        </nav> 
+        </nav>  
         <a  href="logout.php"><input id="botao" type="button"name="login" value="Sair"></a>
         <hr width="100%" align="center" color="black">
        
         </div>
         <div id="titulo">
-            História dos Batistas
+            Nossa história
         </div>
+        
         <div id="hist">
-            <h2>Nossa História</h2><br>
-            <img src="fotos/igreja.png" width="100%" height="30%"><br>
-            <p> A Primeira Igreja Batista começou em 12/06/1982 na Quadra 01 MR 12 lote 20 Setor Norte Planaltina-GO 
-            e depois foi construído o templo em 09/05/1991 na Quadra 01 MR 01 Lotes 01 e 02 Setor Norte Planaltina-GO 
-            o qual está até hoje.<br>
-     Cronologia da direção da PIB:
-     12/06/82 a 11/03/84 – Pr. Carlos...<br>
-11/03/84 a 27/07/86 – AlciVernay da Silva<br>
-27/07/86 a 25/07/93 - Pr. Carlos... (saiu para ser Pr. Da SIG)<br>
-25/07/93 a 28/01/01 – Pr. Reginaldo Ramos Silva<br>
-28/01/01 a 18/02/01 – Ir. Odair Jose (vice-presidente)<br>
-18/02/01 a 14/03/02 - Pr. Carlos... (Pr. Interino)<br>
-14/03/02 a 11/08/02 – Irª. Dione Coelho da Silva Salviano (vice-moderadora)<br>
-11/08/02 a 20/10/02 – Pr.HeribertoRegen Silva Alves<br>
-20/10/02 a 12/01/03 - Irª. Dione Coelho da Silva Salviano (vice-moderadora)<br>
-12/01/03 a 08/03/03 – Ir. Marcos Salviano de Souza (vice-moderador)<br>
-08/03/03 a 17/08/08 – Pr. João Marcos Matias de Santana<br>
-17/08/08 a 04/10/08 – Pr. Rubens da Costa Monteiro (Pr. Interino)<br>
-04/10/08 a 11/04/10 – Pr. Fábio de Castro Mesquita<br>
-11/04/10 a 25/12/10 – Pr. Marcelo Henrique Guedes (Pr. Interino)<br>
-25/12/10 a indeterminado – Pr. Estevão Alves da Silva<br><br>
-            
-Veja nosso estatuto: <a href="pdfs/estatuto.pdf" target="_blank">Estatuto PIB</a><br><br>
-
-            <p id="fonte"> Fonte: http://www.convencaobatista.com.br/siteNovo/index.php </p> </p>
+            <h2>Primeira Igreja Batista</h2><br>
+            <p> A Primeira Igreja Batista (PIB), vinculada à Convenção Batista do Planalto Central, foi fundada em 12 de junho de 1982 na Quadra 01 MR 12 lote 20
+                Setor Norte Planaltina-GO, sendo uma organização civil, de natureza religiosa, sem fins lucrativos e econômicos, tendo sede e foro nessa cidade. <br><br>
+                Foi construído anos depois em 09 de maio de 1991 um templo maior na Quadra 01 MR 01 Lotes 01 e 02 Setor Norte:</p>
+         <img src="fotos/igreja.png" width="100%" height="30%"><br><br>
+         <p> Abaixo está a cronologia dos pastores que lideraram essa igreja:
+         <ul> <li>12/06/82 a 11/03/84 – Pr. Carlos</li><br>
+             <li>11/03/84 a 27/07/86 – AlciVernay da Silva</li>]<br>
+    <li>27/07/86 a 25/07/93 - Pr. Carlos</li><br>
+    <li>25/07/93 a 28/01/01 – Pr. Reginaldo Ramos Silva</li><br>
+    <li>28/01/01 a 18/02/01 – Ir. Odair Jose (vice-presidente)</li><br>
+    <li>18/02/01 a 14/03/02 - Pr. Carlos... (Pr. Interino)</li><br>
+    <li>14/03/02 a 11/08/02 – Irª. Dione Coelho da Silva Salviano (vice-moderadora)</li><br>
+    <li>11/08/02 a 20/10/02 – Pr.Heriberto Regen Silva Alves</li><br>
+    <li>20/10/02 a 12/01/03 - Irª. Dione Coelho da Silva Salviano (vice-moderadora)</li><br>
+    <li>12/01/03 a 08/03/03 – Ir. Marcos Salviano de Souza (vice-moderador)</li><br>
+    <li>08/03/03 a 17/08/08 – Pr. João Marcos Matias de Santana</li><br>
+    <li>17/08/08 a 04/10/08 – Pr. Rubens da Costa Monteiro (Pr. Interino)</li><br>
+    <li>04/10/08 a 11/04/10 – Pr. Fábio de Castro Mesquita</li><br>
+    <li>11/04/10 a 25/12/10 – Pr. Marcelo Henrique Guedes (Pr. Interino)</li><br>
+    <li>E de 25/12/10 até hoje em dia lidera o Pr. presidente Estevão Alves da Silva.</li>
+         </ul>
+    Temos como finalidade pregar o Evangelho de Jesus Cristo<br><br>
+    Veja nosso estatuto: <a href="pdfs/estatuto.pdf" target="_blank"> <button>Estatuto PIB</button></a><br><br> </p>
+         
+         <h3>História da Convenção Batista do Planalto Central</h3><br>
+         <p>A Convenção Batista do Planalto Central foi organizada em 22 de julho de 1960, composta de cinco igrejas e um total de 358 membros. 
+             Atualmente, a CBPC é composta de 137 igrejas, 38 congregações e 22 mil membros e congregados.<br><br>
+             O trabalho batista começou nas terras do planalto central em dezembro de 1956, com a chegada dos irmãos Edístio Fernandes, Josias Nogueira e Jorge Dias Lima.<br><br>
+Com o aparecimento das igrejas batistas na nova capital e a conseqüente expansão de suas atividades de natureza cooperativa, sentiu-se logo a necessidade de se agruparem numa convenção.<br><br>
+Assim, em 22 de julho de 1960, três meses após a fundação de Brasília, na mesma ocasião em que se organizou a Igreja Memorial Batista de Brasília, em seu santuário provisório, também foi fundada a
+Convenção Batista do Planalto Central, inicialmente com o nome de Convenção Batista do Distrito Federal. Cinco igrejas participaram deste evento:<br><br>
+         <ul><li>PIB de Brasília;</li><br>
+ <li>PIB em Taguatinga;</li><br>
+ <li>PIB em Alexânia;</li><br>
+<li>Igreja Batista do Planalto (atual PIB Sobradinho); e</li><br>
+<li>Igreja Memorial Batista</li><br><br>
+</ul>
+Após 52 anos da sua fundação, a CBPC passou de cinco para 135 igrejas filiadas e 67 congregações. Multiplicaram-se o número de batistas de 358 membros para 22 mil pessoas, 
+entre membros e congregados. E essa tem sido a visão da CBPC, com a firme cooperação das igrejas e órgãos a ela filiados <br><br> </p>
+            <p id="fonte"> Fontes: http://www.convencaobatista.com.br/siteNovo/index.php <br>
+                https://cbpc.org.br/nossa-historia/ </p>
         </div>
+        
        <div id="final">
             <p id="rodape">Primeira Igreja Batista em Planaltina Goiás<br><br>
                 

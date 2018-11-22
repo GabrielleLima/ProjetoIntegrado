@@ -63,7 +63,7 @@ session_start();
                 right: 5px;
             }
         </style>
-        <title></title>
+        <title>Primeira Igreja Batista</title>
     </head>
     <body>
         <div id="cabecalho">
@@ -87,7 +87,7 @@ session_start();
            <img src="fotos/igreja.png" width="60%" height="50%">
         </div>
         <br>
-        <img src="fotos/logoConvencao.jpg" width="10%" height="15%">
+        
         
         
         <div id="final">

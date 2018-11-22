@@ -4,7 +4,7 @@ session_start();
 ?>
 <html>
     <head>
-        <title>Fale conosco</title>
+        <title>História Batistas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="formatacao.css"> 
@@ -74,6 +74,12 @@ session_start();
                 font-size: 10pt;
                 font-style: italic;
             }
+            button{
+                background: none;                
+                border: 2px solid rgba(0,0,0,0.9) ;
+                cursor: pointer;
+                border-radius: 5px;
+             }
             </style>
     </head>
     <body>
@@ -83,7 +89,7 @@ session_start();
         
         <nav id="menu">
             <ul>
-                <li><a href="index.php">Inicio</a> </li>
+                <li><a href="index.php">Início</a> </li>
                 <li><a href="sobre.php">Sobre nós</a> </li>                
                 <li><a href="programacoes.php">Programações</a> </li>
                 <li><a href="contato.php">Fale conosco</a></li>
@@ -120,7 +126,7 @@ Nossas Igrejas adotam a forma de governo Congregacional Democrático. São Igrej
 Creem na conversão pessoal de cada crente a Jesus Cristo, no exercício de sua responsabilidade individual e que é aceito pela Igreja por batismo por imersão e mediante
 confissão da sua fé em Jesus Cristo como salvador pessoal. Portanto, não aceitam e nem praticam o batismo infantil. Realizam seus objetivos comuns pela cooperação voluntária, 
 na forma de associação de Igrejas ou de Convenções, como é o caso da Convenção Batista Brasileira.<br><br>
-Declaração doutrinária da convenção: <a href="pdfs/Declaraçao doutrinaria.pdf" target="_blank"> Declaração doutrinária</a> <br><br><br>
+Declaração doutrinária da convenção: <a href="pdfs/Declaraçao doutrinaria.pdf" target="_blank"> <button>Declaração doutrinária</button></a> <br><br><br>
            
 
 

@@ -4,7 +4,7 @@ session_start();
 ?>
 <html>
     <head>
-        <title>Avisos</title>
+        <title>Programações</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="formatacao.css">
@@ -14,7 +14,7 @@ session_start();
                font-size: 15px;
                 width: 500px;
                 top: 0px;
-                left: 530px;
+                left: 550px;
           
             }
             h2{
@@ -62,7 +62,7 @@ session_start();
         
         <nav id="menu">
             <ul>
-                <li><a href="index.php">Inicio</a> </li>
+                <li><a href="index.php">Início</a> </li>
                 <li><a href="sobre.php">Sobre nós</a> </li>
                 <li><a href="programacoes.php">Programações</a> </li>
                 <li><a href="contato.php">Fale conosco</a></li>

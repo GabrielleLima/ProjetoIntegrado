@@ -4,7 +4,7 @@ session_start();
 ?>
 <html>
     <head>
-        <title>Fale conosco</title>
+        <title>Princípios</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="formatacao.css"> 
@@ -74,6 +74,12 @@ session_start();
                 font-size: 10pt;
                 font-style: italic;
             }
+            button{
+                background: none;                
+                border: 2px solid rgba(0,0,0,0.9) ;
+                cursor: pointer;
+                border-radius: 5px;
+             }
             </style>
     </head>
     <body>
@@ -83,7 +89,7 @@ session_start();
         
         <nav id="menu">
             <ul>
-                <li><a href="index.php">Inicio</a> </li>
+                <li><a href="index.php">Início</a> </li>
                 <li><a href="sobre.php">Sobre nós</a> </li>                
                 <li><a href="programacoes.php">Programações</a> </li>
                 <li><a href="contato.php">Fale conosco</a></li>
@@ -95,7 +101,7 @@ session_start();
        
         </div>
         <div id="titulo">
-            História dos Batistas
+            Pacto Batista e Princípios Batistas
         </div>
         <div id="hist">
             <h2>Pacto das Igrejas Batistas</h2>
@@ -118,7 +124,7 @@ o espírito deste Pacto.<br><br>
 
 O Senhor nos abençoe e nos proteja para que sejamos fiéis e sinceros até a morte.<br><br>
 
-Leia sobre os Princípios Batistas : <a href="pdfs/principios batistas.pdf" target="_blank">Princípios Batistas</a>    <br><br>   
+Leia sobre os Princípios Batistas : <a href="pdfs/principios batistas.pdf" target="_blank"><button>Princípios Batistas</button></a>    <br><br>   
 
 
 
